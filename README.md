@@ -128,16 +128,7 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the full guide.
-
-Contributions are welcome. Open a pull request or issue to add a missing client, fix a status, or update a link. When adding an entry, please include:
-
-- Name and link (repo, store page or website)
-- Short feature description
-- Language(s) / framework
-- Current development status using the legend above
-
-Entries known to be malware or clearly abusive should be marked with ⛔ rather than removed, so people can recognise them.
+See [CONTRIBUTING.md](CONTRIBUTING.md) to add or update entries, statuses, and warnings.
 
 ## Further comments
 
