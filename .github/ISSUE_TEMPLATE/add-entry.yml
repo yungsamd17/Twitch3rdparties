@@ -1,0 +1,63 @@
+name: Add an entry
+description: Suggest a new client, mod, tool, or front-end for the list
+title: "[Add] "
+labels: ["add"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Check the README first to make sure the project is not already listed. Projects that are discontinued can still be suggested. Mark them as 🔴 with a link to the source.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Repository, store page, or website
+      description: The link people should use to get or check the project
+    validations:
+      required: true
+  - type: textarea
+    id: features
+    attributes:
+      label: Features
+      description: One or two short, neutral sentences
+    validations:
+      required: true
+  - type: input
+    id: languages
+    attributes:
+      label: Language(s)
+      description: Use names from badges.md, or "Closed source"
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Development status
+      options:
+        - "🟢 Active"
+        - "🔵 Active, but in beta / early / still in development"
+        - "🟠 Slow, on hiatus, or activity not confirmed"
+        - "🔴 Discontinued, archived, abandoned, or outdated"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: How you checked the status
+      description: Link to recent commits, releases, or the store page. Do not include version numbers or last-push dates in the entry itself.
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: The project is public or publicly available, and I have linked it
+          required: true
+        - label: I checked that this is not already in the README
+          required: true
