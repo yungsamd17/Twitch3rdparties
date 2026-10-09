@@ -20,6 +20,7 @@ Modeled after [Discord3rdparties](https://github.com/Discord-Client-Encyclopedia
   * [Web front-ends](#web-front-ends)
   * [Browser extensions & ad blockers](#browser-extensions--ad-blockers)
   * [Other tools](#other-tools)
+  * [Related lists](#related-lists)
   * [Discontinued projects](#discontinued-projects)
   * [Contributing](#contributing)
   * [Further comments](#further-comments)
@@ -126,6 +127,15 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 | [TwitchDownloader](https://github.com/lay295/TwitchDownloader) | Download Twitch VODs, clips, and chat, with a CLI and a GUI. Chat can be saved as JSON, HTML, or text, or rendered as a video. C#. | 🟢 Active |
 | [twitch-dl](https://github.com/ihabunek/twitch-dl) | Command-line tool to list channel videos and clips and download them by URL or ID. Python, GPLv3. | 🟢 Active |
 | [Twitch Drops Miner](https://github.com/DevilXD/TwitchDropsMiner) | Automates farming Twitch drops | 🟢 Active (stable releases are outdated, use the dev build) ⛔ May violate Twitch ToS |
+
+## Related lists
+
+Other curated lists of Twitch and streaming tools. They focus on bots, overlays, and developer tools rather than third-party clients, so they complement this list.
+
+| Name | Features | Development Status |
+| ---- | -------- | ------------------ |
+| [awesome-twitch](https://github.com/sammwyy/awesome-twitch) | Curated list of Twitch streaming tools: widgets, analytics, chat bots, chat clients, emote tools, OBS plugins, and developer libraries. Organized by category. | 🟢 Active |
+| [awesome-twitch-stuff](https://github.com/jupjohn/awesome-twitch-stuff) | Curated list of Twitch and streaming-related tools, with tags for open source, paid, and free. Still ungrouped and marked "will sort". | 🟠 Slow (last commit 7 months ago) |
 
 ## Discontinued projects
 
