@@ -20,6 +20,7 @@ Modeled after [Discord3rdparties](https://github.com/Discord-Client-Encyclopedia
   * [Web front-ends](#web-front-ends)
   * [Browser extensions & ad blockers](#browser-extensions--ad-blockers)
   * [Other tools](#other-tools)
+  * [Discontinued projects](#discontinued-projects)
   * [Contributing](#contributing)
   * [Further comments](#further-comments)
   * [Disclaimer](#disclaimer)
@@ -45,13 +46,12 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 | [Twitch Android](https://play.google.com/store/apps/details?id=tv.twitch.android.app) | Official Android client | [Closed source] | 🟢 Active |
 | [Xtra](https://github.com/crackededed/Xtra) | Twitch player and browser. VODs and clips with chat replay, offline VOD downloads, Picture in Picture, sleep timer, BTTV/FFZ emotes, themes. Also on [F-Droid](https://f-droid.org/packages/com.github.andreyasadchy.xtra/). | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) | 🟢 Active ⛔ Uses the TTV.lol API, which exposes your Twitch user ID and IP to a third-party proxy |
 | [Frosty](https://github.com/tommyxchow/frosty) | Cross-platform client with 7TV, BTTV and FFZ emotes and badges, emote menu and autocomplete, chatters list, themes (incl. OLED), sleep timer, PiP. Also on iOS. | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🟢 Active |
-| [DankChat](https://github.com/flxrs/DankChat) | Chat-focused client: multi-channel chat (even for offline streamers) with FFZ, BTTV and 7TV emotes. Also on [F-Droid](https://f-droid.org/packages/com.flxrs.dankchat). | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) | 🟢 Active |
+| [DankChat](https://github.com/flex3r/dankchat) | Chat-focused client: multi-channel chat (even for offline streamers) with FFZ, BTTV and 7TV emotes. Also on [F-Droid](https://f-droid.org/packages/com.flxrs.dankchat). | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) | 🟢 Active |
 | [Twire](https://github.com/twireapp/Twire) | Open-source, ad-free Twitch browser and stream player. VODs with chat replay, BTTV/FFZ/7TV emotes, Picture in Picture, themes. Fork of Pocket Plays. Also on [F-Droid](https://f-droid.org/packages/com.perflyst.twire/). | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | 🟠 Slow (latest release 2.12.3, Aug 2025; no newer release found) |
 | [Chatsen](https://github.com/chatsen/chatsen) | Cross-platform chat client with 7TV, BTTV and FFZ support, built-in video player, auto-completion, notifications, whispers. | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🟢 Active |
-| [bttv-android](https://github.com/bttv-android/bttv) | Mod of the official Twitch Android app adding BTTV, FFZ and 7TV emotes. Built by patching Twitch **19.0.1** only. No Android TV support, no 7TV zero-width emotes. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | 🔴 Pinned to an old Twitch version |
-| [Pocket Plays for Twitch](https://github.com/SebastianRask/Pocket-Plays-for-Twitch) | Original open-source, ad-free Twitch player; base of Twire | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | 🔴 Discontinued |
-| [Amaterasu](https://github.com/abstraq/amaterasu) | Open-source client for viewing Twitch streams on iOS and Android | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🔴 Unfinished / abandoned |
-| [ReVanced Twitch patches](https://revanced.app/) | ReVanced patches for the official Twitch app (e.g. block embedded ads). Older patch versions were pinned to Twitch 14.x. | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) | 🔴 Outdated, use Morphe sources below |
+| [bttv-android](https://github.com/bttv-android/bttv) | Mod of the official Twitch Android app adding BTTV, FFZ and 7TV emotes. Built by patching Twitch **19.0.1** only. No Android TV support, no 7TV zero-width emotes. | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | 🔴 Pinned to an old Twitch version ([details](DISCONTINUED.md#bttv-android)) |
+| [Pocket Plays for Twitch](https://github.com/SebastianRask/Pocket-Plays-for-Twitch) | Original open-source, ad-free Twitch player; base of Twire | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat&logo=openjdk&logoColor=white) | 🔴 Discontinued ([details](DISCONTINUED.md#pocket-plays-for-twitch)) |
+| [ReVanced Twitch patches](https://revanced.app/) | ReVanced patches for the official Twitch app (e.g. block embedded ads). Older patch versions were pinned to Twitch 14.x. | ![Kotlin](https://img.shields.io/badge/-Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) | 🔴 Outdated, use Morphe sources below ([details](DISCONTINUED.md#revanced-twitch-patches)) |
 | "Twitch Mod APK" sites | Random pre-modded APKs promising no ads | [Closed source] | ⛔ Unverified, usually outdated, malware and ban risk |
 
 ### Morphe patch sources (Android)
@@ -72,8 +72,7 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 | [Frosty](https://apps.apple.com/us/app/frosty-for-twitch/id1603987585) ([source](https://github.com/tommyxchow/frosty)) | Cross-platform client with 7TV, BTTV and FFZ support (see Android table) | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🟢 Active |
 | [Kulve](https://apps.apple.com/us/app/kulve/id6476389316) | Native Twitch client for iPhone/iPad (iOS 18.5+) and Mac. Full third-party emote support, replies and threads, fullscreen chat. Free with optional Kulve Pro subscription. No custom ad blocking, supports Twitch Turbo. | [Closed source] | 🟢 Active |
 | [Chatsen](https://apps.apple.com/app/id1574037007) ([source](https://github.com/chatsen/chatsen)) | Chat client with 7TV, BTTV and FFZ support (see Android table) | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🟢 Active |
-| [frosty-swiftui](https://github.com/tommyxchow/frosty-swiftui) | Experimental native iOS Twitch client by the Frosty author | ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat&logo=swift&logoColor=white) | 🔴 Dormant (last update Sep 2021) |
-| [Amaterasu](https://github.com/abstraq/amaterasu) | Open-source client for viewing Twitch streams on iOS and Android | ![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat&logo=dart&logoColor=white) ![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat&logo=flutter&logoColor=white) | 🔴 Unfinished / abandoned |
+| [frosty-swiftui](https://github.com/tommyxchow/frosty-swiftui) | Experimental native iOS Twitch client by the Frosty author | ![Swift](https://img.shields.io/badge/-Swift-F05138?style=flat&logo=swift&logoColor=white) | 🔴 Archived (Sep 2024; last update Sep 2021) ([details](DISCONTINUED.md#frosty-swiftui)) |
 
 > Maintained tweaks or patched builds of the official Twitch iOS app are rare. If you know of one, please open a PR.
 
@@ -106,8 +105,8 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 
 | Name | Features | Language(s) | Development Status |
 | ---- | -------- | ----------- | ------------------ |
-| [Twineo](https://codeberg.org/CloudyyUw/twineo) | Privacy-focused alternative front-end to Twitch, inspired by Invidious and Nitter. Lightweight, minimal JavaScript, AGPL. Public instances exist. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Deno](https://img.shields.io/badge/-Deno-000000?style=flat&logo=deno&logoColor=white) | 🔴 Archived (Aug 2026; last commit Apr 2024) |
-| [SafeTwitch](https://codeberg.org/SafeTwitch/safetwitch) | Privacy-respecting Twitch front-end with a Go backend | ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) | 🔴 Frontend repo archived |
+| [Twineo](https://codeberg.org/CloudyyUw/twineo) | Privacy-focused alternative front-end to Twitch, inspired by Invidious and Nitter. Lightweight, minimal JavaScript, AGPL. Public instances exist. | ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white) ![Deno](https://img.shields.io/badge/-Deno-000000?style=flat&logo=deno&logoColor=white) | 🔴 Archived (Aug 2026; last commit Apr 2024) ([details](DISCONTINUED.md#twineo)) |
+| [SafeTwitch](https://codeberg.org/SafeTwitch/safetwitch) | Privacy-respecting Twitch front-end with a Go backend | ![Vue.js](https://img.shields.io/badge/-Vue.js-4FC08D?style=flat&logo=vuedotjs&logoColor=white) ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white) | 🔴 Frontend repo archived ([details](DISCONTINUED.md#safetwitch)) |
 
 ## Browser extensions & ad blockers
 
@@ -124,7 +123,13 @@ Language badges used in the tables are listed in [badges.md](badges.md).
 | Name | Features | Development Status |
 | ---- | -------- | ------------------ |
 | [Streamlink](https://github.com/streamlink/streamlink) | Command-line tool that pipes Twitch (and other) streams into your own player (VLC, mpv). Backbone of several clients above. | 🟢 Active |
+| [TwitchDownloader](https://github.com/lay295/TwitchDownloader) | Download Twitch VODs, clips, and chat, with a CLI and a GUI. Chat can be saved as JSON, HTML, or text, or rendered as a video. C#. | 🟢 Active |
+| [twitch-dl](https://github.com/ihabunek/twitch-dl) | Command-line tool to list channel videos and clips and download them by URL or ID. Python, GPLv3. | 🟢 Active |
 | [Twitch Drops Miner](https://github.com/DevilXD/TwitchDropsMiner) | Automates farming Twitch drops | 🟢 Active (stable releases are outdated, use the dev build) ⛔ May violate Twitch ToS |
+
+## Discontinued projects
+
+Archived, discontinued, and long-inactive projects are listed in [DISCONTINUED.md](DISCONTINUED.md).
 
 ## Contributing
 
