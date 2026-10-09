@@ -55,16 +55,23 @@ Every entry needs these columns:
 
 ## Removing entries
 
-Open an issue or pull request that explains why the entry should go. Common reasons are that the project has been removed from all official sources and has no working build, or that it is confirmed to be malicious. Malware entries should normally stay with a ⛔ warning rather than being deleted.
+Open an issue with the [Update an entry](https://github.com/yungsamd17/Twitch3rdparties/issues/new/choose) form, or a pull request, and explain why the entry should go. Common reasons are that the project has been removed from all official sources and has no working build, or that it is confirmed to be malicious. Malware entries should normally stay with a ⛔ warning rather than being deleted.
 
 ## Language badges
 
 - Use the badges already in [badges.md](badges.md).
 - If a language is missing, add its badge to `badges.md` using the format described there, then use it in your entry.
 
-## Reporting problems
+## Opening an issue
 
-If a link is broken, a status is wrong, or an entry is unsafe, open an issue. Include the entry name and the evidence you found.
+Use the issue forms on the [New issue](https://github.com/yungsamd17/Twitch3rdparties/issues/new/choose) page. Each form asks for the information needed to act on it:
+
+- **Add an entry:** for a project that is not in the list yet. Label: `add`.
+- **Update an entry:** for a broken link, a wrong or outdated status, missing feature info, or a wrong language badge. Label: `update`.
+- **Report a safety, ToS, or privacy concern:** for an entry that should get a ⛔ warning. Label: `warning`.
+- **Blank issue:** for anything else. Use it only when none of the forms fit.
+
+Always include the evidence you found, such as a link to a commit, release, store page, or report.
 
 ## Code of conduct
 
