@@ -1,0 +1,37 @@
+name: Update an entry
+description: Report a broken link, a wrong status, or missing information
+title: "[Update] "
+labels: ["update"]
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+      description: The name as it appears in the README
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What needs changing?
+      options:
+        - Broken link
+        - Wrong or outdated status
+        - Missing or incorrect feature description
+        - Wrong language badge
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What is wrong, and what should it say instead?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Link to the repository, release, commit, or page that supports the change
+    validations:
+      required: true

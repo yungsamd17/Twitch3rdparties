@@ -1,0 +1,40 @@
+name: Report a safety, ToS, or privacy concern
+description: Ask for an entry to be marked with ⛔ or flag a suspicious project
+title: "[Warning] "
+labels: ["warning"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Entries with warnings are marked with ⛔ and are not removed, so people can see the reason. For a live security risk, report it to the project's maintainer or GitHub first.
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name or link
+    validations:
+      required: true
+  - type: dropdown
+    id: reason
+    attributes:
+      label: Reason
+      options:
+        - Malware or suspicious download
+        - Scam or fake site
+        - Twitch Terms of Service risk
+        - Privacy concern (data, tokens, or IP exposed)
+        - Ads or tracking not disclosed
+        - Dependence on a third-party proxy
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Links to reports, issues, store reviews, or official documentation. Do not include private personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
